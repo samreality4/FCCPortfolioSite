@@ -7,7 +7,7 @@ body {
 h1,
 h2,
 p,
-a {
+a, button {
   font-family: "Roboto", sans-serif;
   margin: 0;
   color: whitesmoke;
@@ -32,19 +32,17 @@ a {
 
 .nav-link {
   text-decoration: none;
-  font-size: 1.2rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
 }
 
 #navbar button {
+  font-size: 1.2rem;
   background: transparent;
   border: none;
   margin-right: 1rem;
 }
 
 #navbar button:hover {
-  box-shadow: 5px 5px 5px 5px black;
+  box-shadow: 3px 3px 5px 5px white;
 }
 
 #welcome-section {
@@ -104,7 +102,7 @@ a {
 }
 
 .project-tile:hover {
-  box-shadow: 20px 20px 30px 10px black;
+  box-shadow: 20px 20px 30px 10px white;
 }
 
 .project-tile img {
@@ -129,7 +127,7 @@ a {
 }
 
 #profile-link:hover {
-  box-shadow: 5px 5px 10px black;
+  box-shadow: 5px 5px 10px white
 }
 
 #contact {
